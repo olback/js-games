@@ -1,0 +1,2 @@
+# Clicker
+Basicly cookie clicker
