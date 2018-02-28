@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Avoiding Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link href="css/style.css" rel="stylesheet">-->
+        <style>
+            * {
+                margin: 0; padding: 0;
+                overflow: hidden;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            h2 {
+                text-align: center;
+                padding: 50px;
+            }
+
+            main {
+                position: fixed;
+                right: 0;
+                left: 0;
+                margin-right: auto;
+                margin-left: auto;
+                width: 400px;
+                background-color: white;
+                padding: 30px;
+                top: 20%;
+                border: 1px solid gray;
+                
+            }
+
+            button {
+                padding: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: white;
+                border: 1px solid #bbb;
+                border-radius: 5px;
+            }
+
+            button:hover {
+                background-color: rgba(0, 0, 0, 0.1)
+            }
+        </style>
+        <script src="../lib/p5.min.js"></script>
+        <script src="sketch.js"></script>
+    </head>
+    <body>
+        <noscript><h2>lol</h2></noscript>
+        <main id="welcome">
+            <h1>Avoiding by olback</h1><br>
+            <p>
+                Author: <a href="https://github.com/olback" target="_blank">github.com/olback</a><br>
+                Project link: <a href="https://github.com/olback/simple-js-game" target="_blank">github.com/olback/simple-js-game</a><br>
+                You win by scoring 30 points!<br>
+            </p>
+            <br>
+            <button onclick="startGame()">Start</button>
+        </main>
+    </body>
+</html>
